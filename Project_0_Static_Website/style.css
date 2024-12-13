@@ -1,0 +1,374 @@
+*{
+	text-decoration: none;
+}
+	body{
+	background: black;
+	margin: 0px; 
+	font-family: arial;
+}
+
+.main{
+	width: 1000px;
+	margin: auto;
+}
+.row1{
+	width: 1000px;
+	height: 186px;
+	background: url("images/headerbg.jpg");
+}
+.logo{
+	width: 210px;
+	float: left;
+	margin-left: 20px;
+	height: 160px;
+	margin-top: 15px;
+}
+
+.tagLine{
+	width: 400px;
+	float: left;
+	font-size: 18px;
+	padding-top: 80px;
+
+	font-weight: bold;
+	margin-left: 30px;
+	color: blue;
+	text-align: center;
+	text-transform: uppercase;
+	height:80px;
+}
+.cinfo{
+	width: 296px;
+	float: left;
+	margin: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	height: 132px;
+	background: url("images/topcontactbg.png");
+}
+.weblink{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.row2{
+	width: 1000px;
+	height: 55px;
+	padding-left: 60px;
+	box-sizing: border-box;
+	background: url("images/menubg.jpg") repeat-x ;
+	
+}
+.menuItems{
+	width: 127px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 20px;
+	margin-top: 10px;
+	height: 44px;
+	padding-top: 10px;
+	background: url("images/menubackground.png");
+	
+}
+.row3{
+	width: 1000px;
+	height: 240px;
+
+}
+.leftMenu{
+	width: 213px;
+	height: 240px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.leftMenuVar{
+	width: 213px;
+	height: 40px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.rightBanner{
+	width: 743px;
+	height: 240px;
+	float: left;
+	background: url(images/banner.gif);
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.row4{
+	width: 1000px;
+	height: 195px;
+	margin-top: 20px;
+
+}
+.whydiv{
+	height:189px;
+	width:213px;
+	background: url(images/whybg.jpg) repeat-x;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-left: 20px;
+	float: left;
+}
+.whyheading{
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	margin-bottom:20px;
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+.whycontent{
+	font-size:14px;
+	color:white;
+	text-align:left;
+	margin-bottom:5px;
+	margin-left:15px;
+}
+.coursediv{
+	width: 336px;
+	height: 184px;
+	background:#fdc059;
+	border: 1px solid white;
+	margin-left: 10px;
+	float: left;
+}
+.coursesheading{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-decoration: underline;
+}
+.coursescontent{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:25px;
+	font-weight:bold;
+	margin-left: 10px;
+}
+.services{
+	width: 380px;
+	height: 184px;
+	background: url(images/services.jpg);
+	float: left;
+	margin-left: 15px;
+}
+.footer{
+	width: 1000px;
+	height: 48px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.footerLeft{
+	width: 13px;
+	height: 48px;
+	background: url(images/footer_left.png) no-repeat;
+	float: left;
+}
+.footerMiddle{
+	width: 943px;
+	height: 48px;
+	background: url(images/footer_middle.png) repeat-x;
+	float: left;
+}
+.footerRight{
+	width: 13px;
+	height: 48px;
+	background: url(images/footer_right.png);
+	float: left;
+
+}
+.footerMiddleDiv{
+	width: 600px;
+	height: 48px;
+	margin-left: 200px;
+}
+.footerMiddleVar{
+	height: 48px;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.row3About{
+	width: 1000px;
+	height: 700px;
+	margin-top: 5px;
+}
+.leftMenuAbout{
+	width: 213px;
+	height: 240px;
+	float: left;
+	margin-left: 20px;
+}
+.leftMenuVarAbout{
+	width: 213px;
+	height: 40px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.rightBannerAbout{
+	width: 743px;
+	height: 700px;
+	background-color: white;
+	margin-left: 10px;
+	float: left;
+
+}
+.content{
+	text-align: justify;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.row3courses{
+	width: 1000px;
+	height: 400px;
+	margin-top: 10px;
+}
+.leftMenucourses{
+	width: 213px;
+	height: 240px;
+	float: left;
+	margin-left: 10px;
+}
+.leftMenuVarcourses{
+	width: 213px;
+	height: 40px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	box-sizing: border-box;
+
+}
+.rightBannerCourses{
+	width: 743px;
+	height: 400px;
+	background-color: white;
+	margin-left: 10px;
+	float: left;
+
+}
+.contentCourses{
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: justify;
+}
+.row3Gallery{
+	width: 1000px;
+	height: 500px;
+	margin-top: 10px;
+}
+.leftMenuGallery{
+	width: 213px;
+	height: 240px;
+	float: left;
+	margin-left: 10px;
+}
+.leftMenuVarGallery{
+	width: 213px;
+	height: 40px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	box-sizing: border-box;
+
+}
+.rightBannerGallery{
+	width: 743px;
+	height: 500px;
+	background-color: white;
+	margin-left: 10px;
+	float: left;
+
+}
+.rightBannerGallery img{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.row3Contact{
+	width: 1000px;
+	height: 300px;
+	margin-top: 10px;
+}
+.leftMenuContact{
+	width: 213px;
+	height: 240px;
+	margin-left: 10px;
+	float: left;
+
+}
+.leftMenuVarContact{
+	width: 213px;
+	height: 40px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	box-sizing: border-box;
+
+}
+.rightBannerContact{
+	width: 743px;
+	height: 300px;
+	background-color: white;
+	margin-left: 10px;
+	float: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+
+}
+.row3Enquiry{
+	width: 1000px;
+	height: 700px;
+}
+.leftMenuEnquiry{
+	width: 213px;
+	height: 240px;
+	margin-left: 10px;
+	float: left;
+
+}
+.leftMenuVarEnquiry{
+	width: 213px;
+	height: 40px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	box-sizing: border-box;
+
+}
+.rightFormEnquiry{
+	width: 743px;
+	height: 700px;
+	background-color: white;
+	margin-left: 10px;
+	float: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.formDiv{
+	margin-top: 30px;
+}
+.inputTag{
+	margin-left: 30px;
+}
